@@ -15,3 +15,8 @@ def fixture_links_csv() -> str:
 @pytest.fixture(name="karate_club_csv")
 def fixture_karate_club_csv() -> str:
     return DATA_PATH / "KarateClub.csv"
+
+
+@pytest.fixture(name="iris_csv")
+def fixture_iris_csv() -> str:
+    return DATA_PATH / "Iris.csv"
