@@ -1,5 +1,6 @@
 import csv
-from numpy import zeros, array, ndarray
+
+from numpy import array, ndarray, zeros
 
 
 def adjacency_matrix(filename: str) -> ndarray:

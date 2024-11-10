@@ -1,4 +1,5 @@
-from numpy import array, zeros, float64, array_equal, round
+from numpy import array, array_equal, float64, round, zeros
+
 from mas import adjacency_matrix, floyd
 
 
