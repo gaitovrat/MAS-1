@@ -1,4 +1,4 @@
-from numpy import ndarray, zeros, fill_diagonal, float64, inf
+from numpy import fill_diagonal, float64, inf, ndarray, zeros
 
 
 def floyd(matrix: ndarray) -> ndarray:
