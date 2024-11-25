@@ -11,6 +11,7 @@ numpy = "^2.1.2"
 networkx = "^3.4.1"
 scipy = "^1.14.1"
 pandas = "^2.2.3"
+graph-sampling = {path = "deps/Graph_Sampling"}
 
 
 [tool.poetry.group.dev.dependencies]
@@ -19,6 +20,7 @@ matplotlib = "^3.9.2"
 pytest = "^8.3.3"
 pandas-stubs = "^2.2.3.241009"
 isort = "^5.13.2"
+seaborn = "^0.13.2"
 
 [build-system]
 requires = ["poetry-core"]
