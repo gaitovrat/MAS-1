@@ -1,3 +1,0 @@
-[submodule "deps/Graph_Sampling"]
-	path = deps/Graph_Sampling
-	url = https://github.com/Ashish7129/Graph_Sampling.git
