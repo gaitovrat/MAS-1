@@ -18,6 +18,7 @@ jupyterlab = "^4.2.5"
 matplotlib = "^3.9.2"
 seaborn = "^0.13.2"
 graph-sampling = { git = "https://github.com/gaitovrat/Graph_Sampling.git" }
+scikit-learn = "^1.5.2"
 
 [build-system]
 requires = ["poetry-core"]
