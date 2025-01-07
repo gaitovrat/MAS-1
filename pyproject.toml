@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "mas"
+version = "0.1.0"
+description = "Metody analýzy sítí I"
+authors = ["Ratmir Gaitov <gaitovrat@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.2"
+pandas = "^2.2.3"
+networkx = "^3.4.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+jupyterlab = "^4.2.5"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+scipy = "^1.14.1"
+scikit-learn = "^1.5.2"
+ipywidgets = "^8.1.5"
+graph-sampling = { git = "https://github.com/gaitovrat/Graph_Sampling.git" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
